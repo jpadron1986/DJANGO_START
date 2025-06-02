@@ -2,21 +2,21 @@
 
 This script was developed by **Jorge Padron** from **APPSYSA** to automate the setup of a Django project following professional architecture and deployment best practices. It’s perfect for creating scalable, secure, and reusable Django environments for both development and production.
 
-> 🚀 Built for developers and teams who want to launch Django projects the right way from the very beginning.
+> Built for developers and teams who want to launch Django projects the right way from the very beginning.
 
 ---
 
-## 📦 Features
+## Features
 
-- 🔐 Secure `.env` file generation with automatic `SECRET_KEY`
-- 🐍 Virtual environment creation and activation
-- 🛠️ Clean and scalable project structure
-- ⚙️ Separate settings for `base`, `dev`, and `prod`
-- 🖼️ Organized `templates` and `static` directories for `webapp` and `dashboard`
-- 📂 Modular app structure inside an `apps/` directory
-- ✅ Database migrations and superuser creation
-- 🌐 Environment selector (`dev` or `prod`)
-- 🧱 App module generator with auto-registration in settings
+- Secure `.env` file generation with automatic `SECRET_KEY`
+- Virtual environment creation and activation
+- Clean and scalable project structure
+- Separate settings for `base`, `dev`, and `prod`
+- Organized `templates` and `static` directories for `webapp` and `dashboard`
+- Modular app structure inside an `apps/` directory
+- Database migrations and superuser creation
+- Environment selector (`dev` or `prod`)
+- App module generator with auto-registration in settings
 
 ---
 
@@ -51,7 +51,7 @@ myproject/
 
 ---
 
-## ▶️ How to Use
+## How to Use
 
 ### 1. Clone the repository and make the script executable
 
@@ -76,7 +76,7 @@ Option	Action
 10	Run the Django development server (based on selected environment)
 ```
 
-⚙️ Environment Configuration
+Environment Configuration
 A .env file will be automatically created with the following structure:
 
 DJANGO_SECRET_KEY=your-secret-key
@@ -92,7 +92,7 @@ DB_PORT=
 DJANGO_ALLOWED_HOSTS_PROD=your-production-domain.com
 DJANGO_CSRF_TRUSTED_ORIGINS=https://your-production-domain.com
 
-🧪 Requirements
+Requirements
 Python 3.8+
 
 pip
@@ -101,7 +101,7 @@ django-admin available (install Django globally if needed)
 
 Unix-based OS (Linux/macOS or WSL recommended)
 
-💡 Notes
+Notes
 Settings are split into base.py, dev.py, and prod.py for better control.
 
 You can easily generate new apps from the script (option 4).
@@ -109,10 +109,10 @@ You can easily generate new apps from the script (option 4).
 To manually activate your environment in the future:
 source venv/bin/activate
 
-📥 Contributing
+Contributing
 Feel free to fork this project and submit a pull request with improvements, or open an issue to report bugs or suggest features.
 
-👨‍💻 Author
+Author
 Developed with 💻 and ☕ by Jorge Padron
 Founder & Lead Developer at APPSYSA
 jorge@appsysa.com | appsysa.com
